@@ -1,0 +1,25 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "Books is a simple web application built using Node.js and Express.js that allows users to browse and manage a collection of books. The application serves as a digital catalog where users can view a list of books, along with their titles, authors, and publication years.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriss1525/Books.git"
+  },
+  "author": "Chriss Okoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriss1525/Books/issues"
+  },
+  "homepage": "https://github.com/chriss1525/Books#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.1"
+  }
+}

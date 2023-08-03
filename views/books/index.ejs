@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>View Books - Book Directory</title>
+  <link rel="stylesheet" href="/styles.css"> <!-- Include your CSS file -->
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/books">View Books</a></li>
+      </ul>
+    </nav>
+    <h1>View Books</h1>
+  </header>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% for (const book of books) { %>
+        <tr>
+          <td><%= book.title %></td>
+          <td><%= book.author %></td>
+          <td><%= book.genre %></td>
+          <td><%= book.year %></td>
+        </tr>
+        <% } %>
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    <p>&copy; 2023 Chriss Okoth</p>
+  </footer>
+</body>
+</html>
+

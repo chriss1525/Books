@@ -1,0 +1,102 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  justify-content: space-between; /* Align items to the start and end of the container */
+  align-items: center; /* Vertically center items within the header */
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  flex: 1;
+}
+
+nav {
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display the list items in a row */
+  justify-content: flex-direction; /* Align items to the start and end of the container */
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-books-button {
+  display: block;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.view-books-button:hover {
+  background-color: #0056b3;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
